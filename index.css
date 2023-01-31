@@ -77,3 +77,23 @@ Border-Radius: 20px;
 Font-Size: 1.6rem;
 Margin-Top: 30px;
 }
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+}
+Body {
+  Width: 100vw;
+  Height: 100vh;
+  Font-Family: Sans-Serif;
+  Padding: 10em 10em;
+  Background: Url(./Bg.Jpg);
+  Opacity: 0.5;
+  Background-Position: Center;
+  Background-Repeat: No-Repeat;
+  Background-Position: 100% 20%;
+  Background-Size: Cover;
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+}

@@ -97,3 +97,62 @@ Body {
   Align-Items: Center;
   Justify-Content: Space-Between;
 }
+.Glass {
+  Width: 500px;
+  Height: 400px;
+  Background-Color: Rgba(255, 255, 255, 0.1);
+  Padding: 50px;
+  Color: #000;
+  Border-Radius: 9px;
+  Backdrop-Filter: Blur(50px);
+  Border: 2px Solid Transparent;
+  Background-Clip: Padding-Box;
+  Box-Shadow: 10px 10px 10px Rgba(45, 55, 68, 0.3);
+  Line-Height: 1.5;
+  Transform: Translatey(-5%);
+  Transition: Transform 0.5s;
+}
+.Glass-1 {
+  Width: 500px;
+  Height: 400px;
+  Background-Color: Rgba(255, 255, 255, 0.1);
+  Padding: 50px;
+  Color: Rgb(122, 82, 82);
+  Border-Radius: 9px;
+  Backdrop-Filter: Blur(50px);
+  Border: 2px Solid Transparent;
+  Background-Clip: Padding-Box;
+  Box-Shadow: 10px 10px 10px Rgba(45, 55, 68, 0.3);
+  Line-Height: 1.5;
+  Transform: Translatey(-5%);
+  Transition: Transform 0.5s;
+  Font-Size: 1.7rem;
+}
+.Glass H1 {
+  Font-Size: 1.5rem;
+  Text-Align: Center;
+}
+.Glass H2 {
+  Font-Size: 1rem;
+  Margin-Top: 20px;
+}
+.Input {
+  Width: 100%;
+  Height: 70px;
+  Overflow: Hidden;
+  Margin-Top: 40px;
+}
+.Input Input {
+  Width: 100%;
+  Height: 70px;
+  Border: None;
+  Padding-Left: 30px;
+  Padding-Top: 0;
+  Outline: None;
+  Font-Size: 1.5rem;
+  Border-Radius: 20px;
+}
+.Glass P {
+  Font-Size: 1.6rem;
+  Margin-Top: 30px;
+}
